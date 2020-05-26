@@ -23,7 +23,7 @@ select
 from cliente c
 order by c.sexo asc, c.nome desc;
 
-4-      Buscar o nome e o valor do produto onde o nome comece com a letra “C”
+--4-      Buscar o nome e o valor do produto onde o nome comece com a letra “C”
 
 select 
 	p.nome, 
@@ -41,7 +41,7 @@ where p.nome like '%a'
 and p.nome like '%o%'
 order by p.quantidade_estoque desc;
 
----      Buscar o nome e a quantidade do produto em que a quantidade em estoque esteja entre 10 e 40
+--6-      Buscar o nome e a quantidade do produto em que a quantidade em estoque esteja entre 10 e 40
 
 select 
 	p.nome, 
